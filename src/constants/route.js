@@ -1,0 +1,16 @@
+export const LANDING = '/';
+export const SIGN_UP = '/signup';
+export const SIGN_IN = '/signin';
+export const SIGN_OUT = '/signout';
+export const HOME = '/home';
+export const ACCOUNT = '/account';
+export const ADMIN = 'admin';
+export const PASSWORD_FORGET = '/pw_forget';
+export const CONTEST = '/contest';
+export const LEADERBOARD = '/leaderboard';
+export const COMPLIER = '/complier';
+export const USER_SETTING = '/settings';
+export const ACCOUNT_SETTING = '/settings/account';
+export const TEAMS_SETTING = '/settings/teams';
+export const PASSWORD_SETTING = '/settings/password';
+export const PHONE_SETTING = '/settings/phone';

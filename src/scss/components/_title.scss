@@ -1,0 +1,26 @@
+#title{
+    height: 100px;
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.3);
+    .title__navigation{
+        
+    }
+
+    .title__content{
+        color: #3a3939;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    .nav--disabled{
+        font-weight: 100;
+        color: #738F93 !important;
+        cursor: default !important;
+    }
+
+    .devider{
+        &::before{
+            content: ">";
+            margin: 0 3px;
+        }
+    }
+}

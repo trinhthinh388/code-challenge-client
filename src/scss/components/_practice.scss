@@ -1,0 +1,52 @@
+#practice{
+    padding: 30px 0;
+    h5{
+        color: #3a3939;
+        margin-left: 15px;
+        font-size: .87rem;
+        font-size: 500;
+        margin-bottom: 20px;
+    }
+
+    .practice__category{
+        padding: 20px 15px;
+        height: auto;
+        overflow: hidden;
+        #category__button--2, #category__button--4{
+            background-size: 100px;
+        }
+
+        .category__button{
+            position: relative;
+            padding: 20px 30px;
+            margin-left: 0px;
+            margin-bottom: 30px;
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+            background-color: #ffffff;
+            width: 30%;
+            background-repeat: no-repeat;
+            background-position: 110% 20px;
+            h4{
+                margin-bottom: 20px;
+                svg{
+                    font-size: 1rem;
+                }
+            }
+
+            p{
+                color: #28A745;
+                border: 1px solid #28A745;
+                width: fit-content;
+                padding: 5px 10px;
+                font-family: 'Source Code Pro', monospace;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .language__category{
+        .language__logo{
+            width: 100px;
+        }
+    }
+}

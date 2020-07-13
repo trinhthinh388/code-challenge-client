@@ -1,0 +1,79 @@
+#navigation{
+    height: 70px;
+    nav{
+        .navbar-brand{
+            font-size: 1.6rem;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+        .navbar-collapse{
+            ul{
+                .active{
+                    border-bottom: 5px solid #28A745;
+                }
+                li{
+                    a{
+                        font-weight: 600;
+                        border-bottom: 5px solid transparent;
+                    }
+                }
+            }
+
+            .navbar__user{
+                .user__photo{
+                    width: 30px;
+                    img{
+                        width: 100%;
+                    }
+                }
+                div{
+                    position: relative;
+                    font-family: 'Source Code Pro', sans-serif;
+                    color: #ffffff;
+
+                    &:hover{
+                        color: #28A745;
+                        cursor: pointer;
+                        .user__expand_nav{
+                            z-index: 1;
+                            top: 100%;
+                            opacity: 1;
+                        }
+                    }
+
+                    .user__expand_nav{
+                        position: absolute;
+                        display: block;
+                        top: 0;
+                        opacity: 0;
+                        z-index: -1;
+                        width: 100%;
+                        border-top: 1px solid #28A745;
+                        transition: all .2s ease-in;
+                        min-width: 150px;
+                        ul{
+                            li{
+                                text-align: center;
+                                margin-bottom: 10px;
+                                padding: 10px 20px;
+                                a{
+                                    font-family: 'Source Code Pro', sans-serif;
+                                    color: white;
+                                    &:hover{
+                                        color: #28A745;
+                                    }
+                                }
+
+                                .user__signout-confirm{
+                                    button{
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

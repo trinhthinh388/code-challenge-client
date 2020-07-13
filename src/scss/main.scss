@@ -1,0 +1,20 @@
+//Bootstrap 
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+//Helpers
+@import './helpers/mixin';
+@import './helpers/variables';
+
+//Base
+@import './base/common';
+
+//Components
+@import "./components/navbar";
+@import "./components/floatingform";
+@import "./components/app";
+@import "./components//title";
+@import "./components/practice";
+@import "./components/footer";
+@import "./components/settings";
+@import "./components/account";
+@import "./components/loading";

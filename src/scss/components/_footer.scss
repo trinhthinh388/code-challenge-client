@@ -1,0 +1,24 @@
+#footer{
+    padding: 20px 0;
+    h2{
+        font-family: 'Josefin Sans', sans-serif;
+        color: #ffffff;
+        font-size: 1.6rem;
+        span{
+            font-family: 'Source Code Pro', monospace;
+            font-size: .8rem;
+            padding-left: 10px;
+            color: #28A745;
+        }
+    }
+
+    .footer__social-links{
+        svg{
+            transition: all .4s ease-in-out;
+            cursor: pointer;
+            &:hover{
+                color: #28A745;
+            }
+        }
+    }
+}

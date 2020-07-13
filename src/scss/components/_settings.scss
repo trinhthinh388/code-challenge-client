@@ -1,0 +1,29 @@
+#settings{
+    padding: 30px 0 50px 0;
+    .settings__menu{
+        .menu__account{
+            h3{
+                font-size: 1.3rem;
+                font-weight: 400;
+                text-transform: uppercase;
+                margin-bottom: 5px;
+            }
+            ul{
+                li{
+                    margin-bottom: 10px;
+                    a{
+                        padding: 5px 10px 5px 20px;
+                        font-weight: 200;
+                        color: black;
+                    }
+                }
+            }
+
+            .active{
+                padding: 5px 10px 5px 17px;
+                border-left: 3px solid #4691F6;
+                color: #4691F6;
+            }
+        }
+    }
+}
